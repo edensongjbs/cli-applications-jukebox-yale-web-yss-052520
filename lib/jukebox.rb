@@ -30,6 +30,13 @@ def exit_jukebox
   puts "Goodbye"
 end
 
+def run
+  puts "Please enter a command:"
+  user_input=gets.strip
+  case user_input
+  when "exit"
+end
+
 #exit_jukebox
 #list(["song1", "songs2"])
 #help
