@@ -22,7 +22,7 @@ def play(songs)
     puts "Playing #{user_input}"
   else
     puts "Invalid input, please try again"
-    play(songs)
+    #play(songs)
   end
 end
 
