@@ -26,3 +26,7 @@ end
 def exit_jukebox
   puts "Goodbye"
 end
+
+exit_jukebox
+list(["song1", "songs2"])
+help
