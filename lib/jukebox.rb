@@ -8,5 +8,6 @@ def help
 end
 
 def list(songs)
+  for i in 0..songs.length
   
   
