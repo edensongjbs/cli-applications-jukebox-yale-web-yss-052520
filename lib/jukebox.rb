@@ -30,23 +30,23 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-#def run(songs)
-#  loop fields_for
-#    puts "Please enter a command:"
-#    user_input=gets.strip
-#    case user_input
-#    when "exit"
-#     exit_jukebox
-#     break
-#    when "help"
-#      help    
-#    when "list"
-#     list(songs)
-#  when "play"
-#    play(songs)
-#  else
-    
-#end
+def run(songs)
+  loop do
+    puts "Please enter a command:"
+    user_input=gets.strip
+    case user_input
+    when "exit"
+      exit_jukebox
+      break
+    when "help"
+      help    
+    when "list"
+      list(songs)
+    when "play"
+      play(songs)
+    end
+  end
+end
 
 #exit_jukebox
 #list(["song1", "songs2"])
