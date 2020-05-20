@@ -7,9 +7,11 @@ def help
   puts "exit : exits this program"
 end
 
-#def list(songs)
-#  for i in 0..songs.length {puts "#{i+1}. #{songs[i]}"}
-#end
+def list(songs)
+  for i in 0..songs.length do 
+    puts "#{i+1}. #{songs[i]}"
+  end
+end
   
 #def play(songs)
 #  puts "Please enter a song name or number"
