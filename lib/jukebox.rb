@@ -30,5 +30,5 @@ def exit_jukebox
 end
 
 exit_jukebox
-#list(["song1", "songs2"])
+list(["song1", "songs2"])
 help
