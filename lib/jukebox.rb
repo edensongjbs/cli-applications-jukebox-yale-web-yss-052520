@@ -8,7 +8,7 @@ def help
 end
 
 def list(songs)
-  for i in 0..songs.length do 
+  for i in 0..songs.length-1 do 
     puts "#{i+1}. #{songs[i]}"
   end
 end
